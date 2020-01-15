@@ -8,7 +8,7 @@ function greet(){
     if (name=="here")
 	alert("hello World !!! ");
 	else
-	alert("hello World "+ name+"!!! ");
+	alert("hello World, "+ name+"!!! ");
 }
 </script>
     <!-- Bootstrap CSS -->
@@ -17,7 +17,7 @@ function greet(){
 </head>
 <body>
 <center>
-<h1>Hello world with swag</h1>
+<h1>Hello world using input dialog</h1>
 <input type="button" value="Click Me" onclick='greet()' class="btn btn-success btn-sm">
 </center>
 </body>
